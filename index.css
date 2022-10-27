@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 a {
     
-    color: rgba(142, 100, 22, 0.3); /* Цвет текста */
+    color: #fdf4e37c; /* Цвет текста */
     padding: 2px; /* Поля вокруг текста */
     text-decoration: none;
     transition: 0.5s linear; /* Время изменения */
 }
 
 a:hover {
-    color: #fff; /* Цвет текста */
+    color: #DAA520; /* Цвет текста */
 }
 
 .avatar {
@@ -16,37 +16,49 @@ a:hover {
     width: 300px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    transition: 1s;
 }
 
 .avatar:hover{
-    width: 110%;
+    transform: scale(1.1);
+
 }
 
-body { 
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-/*font: normal 16 px 'Roboto', sans-serif;
-Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
-} 
+/* .background{
+    background: url(https://ejosue.com/wp-content/uploads/2014/04/thumbnail-1.png);
 
-h2,h1{
-    color: #f3f3f3;
-}
+} */
 
 body {
     background: url(https://ejosue.com/wp-content/uploads/2014/04/thumbnail-1.png);
     display: flex;
     line-height: 1.5;
+}
+/* body:hover{
+    opacity: 1;
+    scale: 110%; */
 
-    -webkit-transform: translatez(0);
-    -moz-transform: translatez(0);
-    transform: translatez(0);
+/* } */
 
+body { 
+    background-color: #030303; 
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+/*font: normal 16 px 'Roboto', sans-serif;
+Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+} 
+
+
+h2,h1{
+    color: #DAA520	;
 }
 
-p {
-    color: #0a0a0a;
+
+
+p,li,td,tr {
+    color: #FDF4E3;
     margin: 0;
     font-style: italic;
     font-weight: bold;
